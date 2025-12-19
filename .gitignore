@@ -1,0 +1,14 @@
+# Data & artifacts
+*.npz
+*.csv
+*.txt
+*.pt
+results/
+Transformer/results/
+checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.env
+
