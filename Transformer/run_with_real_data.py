@@ -269,9 +269,9 @@ print("STEP 6: Training Model (5 epochs)")
 print("="*100 + "\n")
 
 config = TrainingConfig(
-    epochs=5,
-    batch_size=8,
-    learning_rate=1e-3,
+    epochs=5000,
+    batch_size=256,
+    learning_rate=3e-4,
     warmup_steps=100,
     device=device
 )
@@ -517,3 +517,4 @@ print(f"     - All protein embeddings (400 × 768)")
 
 print(f"\n📁 LOCATION: {output_dir}")
 print(f"\n✅ Ready for validation and analysis!")
+
